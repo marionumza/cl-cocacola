@@ -85,7 +85,7 @@
 
     # list of images to use in the form 'name image-url'
     'docker-images': [
-        'odoo jobiols/odoo-ent:14.0',
+        'odoo jobiols/odoo-jeo:14.0',
         'postgres postgres:10.1-alpine',
     ]
 }
