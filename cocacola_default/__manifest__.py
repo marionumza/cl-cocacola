@@ -63,7 +63,7 @@
     'port': '8069',
 
     'git-repos': [
-        'git@github.com:jobiols/cl-cocacola.git',
+        'https://github.com/jobiols/cl-cocacola.git',
 
         # Quilsoft
         #'git@github.com:quilsoft-org/cocacola.git -b main',
