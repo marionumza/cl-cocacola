@@ -33,7 +33,7 @@
     'installable': True,
 
     'env-ver': '2',
-    'odoo-license': 'EE',
+    'odoo-license': 'CE',
     'config': [
 
         # 'addons_path' is always computed looking for the repositories in sources
@@ -85,7 +85,7 @@
 
     # list of images to use in the form 'name image-url'
     'docker-images': [
-        'odoo jobiols/odoo-ent:14.0e',
+        'odoo jobiols/odoo-ent:14.0',
         'postgres postgres:10.1-alpine',
     ]
 }
