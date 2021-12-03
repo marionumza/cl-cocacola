@@ -70,15 +70,15 @@
 
         # OCA
         # 'https://github.com/OCA/brand oca-brand',
-        # 'https://github.com/OCA/web oca-web',
-        # 'https://github.com/OCA/server-ux.git oca-server-ux',
+        'https://github.com/OCA/web OCA-web',
+        'https://github.com/OCA/server-ux.git OCA-server-ux',
 
         # Quilsoft-Org
         # 'https://github.com/ingadhoc/account-financial-tools adhoc-account-financial-tools',
         # 'https://github.com/ingadhoc/account-payment adhoc-account-payment',
         # 'https://github.com/ingadhoc/aeroo_reports.git',
         # 'https://github.com/ingadhoc/argentina-sale adhoc-argentina-sale',
-        # 'https://github.com/ingadhoc/odoo-argentina adhoc-odoo-argentina',
+        'https://github.com/ingadhoc/odoo-argentina adhoc-odoo-argentina',
         # 'https://github.com/ingadhoc/odoo-argentina-ee adhoc-odoo-argentina-ee',
         # 'https://github.com/ingadhoc/stock adhoc-stock',
     ],
