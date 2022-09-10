@@ -7,23 +7,23 @@
 
 {
     'name': 'cocacola',
-    'version': '14.0.1.0.0',
+    'version': '15.0.1.0.0',
     'category': 'Tools',
     'summary': "Proyect module for Coca Cola",
-    'author': "Quilsoft",
-    'website': 'quilsoft.com',
+    'author': "Crumges",
+    'website': 'crumges.com',
     'license': 'AGPL-3',
     'depends': [
             # Modulos odoo
-            'crm',
-            'project',
-            'stock',
-            'mrp',
-            'sale_management',
-            'account_accountant',
-            'purchase',
-            'hr_attendance',
-            'contacts',
+            #'crm',
+            #'project',
+            #'stock',
+            #'mrp',
+            #'sale_management',
+            #'account_accountant',
+            #'purchase',
+            #'hr_attendance',
+            #'contacts',
 #            'calendar',
 #            'account',
             # Modulos quilsoft
@@ -63,29 +63,29 @@
     'port': '8069',
 
     'git-repos': [
-        'https://github.com/jobiols/cl-cocacola.git',
+        'https://github.com/marionumza/cl-cocacola.git',
 
         # Quilsoft
         #'git@github.com:quilsoft-org/cocacola.git -b main',
 
         # OCA
         # 'https://github.com/OCA/brand oca-brand',
-        'https://github.com/OCA/web OCA-web',
-        'https://github.com/OCA/server-ux.git OCA-server-ux',
+        #'https://github.com/OCA/web OCA-web',
+        #'https://github.com/OCA/server-ux.git OCA-server-ux',
 
         # Quilsoft-Org
         # 'https://github.com/ingadhoc/account-financial-tools adhoc-account-financial-tools',
         # 'https://github.com/ingadhoc/account-payment adhoc-account-payment',
         # 'https://github.com/ingadhoc/aeroo_reports.git',
         # 'https://github.com/ingadhoc/argentina-sale adhoc-argentina-sale',
-        'https://github.com/ingadhoc/odoo-argentina adhoc-odoo-argentina',
+        #'https://github.com/ingadhoc/odoo-argentina adhoc-odoo-argentina',
         # 'https://github.com/ingadhoc/odoo-argentina-ee adhoc-odoo-argentina-ee',
         # 'https://github.com/ingadhoc/stock adhoc-stock',
     ],
 
     # list of images to use in the form 'name image-url'
     'docker-images': [
-        'odoo jobiols/odoo-jeo:14.0',
+        'odoo marionumza/mvp_odoo:15.0',
         'postgres postgres:10.1-alpine',
     ]
 }
